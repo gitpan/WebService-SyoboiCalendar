@@ -78,7 +78,7 @@
    "provides" : {
       "WebService::SyoboiCalendar" : {
          "file" : "lib/WebService/SyoboiCalendar.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "WebService::SyoboiCalendar::API" : {
          "file" : "lib/WebService/SyoboiCalendar/API.pm"
@@ -110,5 +110,5 @@
          "web" : "https://github.com/hakobe/WebService-SyoboiCalendar"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

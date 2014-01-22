@@ -32,7 +32,7 @@ no_index:
 provides:
   WebService::SyoboiCalendar:
     file: lib/WebService/SyoboiCalendar.pm
-    version: 0.01
+    version: 0.02
   WebService::SyoboiCalendar::API:
     file: lib/WebService/SyoboiCalendar/API.pm
   WebService::SyoboiCalendar::API::Result:
@@ -69,4 +69,4 @@ resources:
   bugtracker: https://github.com/hakobe/WebService-SyoboiCalendar/issues
   homepage: https://github.com/hakobe/WebService-SyoboiCalendar
   repository: git://github.com/hakobe/WebService-SyoboiCalendar.git
-version: 0.01
+version: 0.02

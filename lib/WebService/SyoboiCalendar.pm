@@ -3,7 +3,7 @@ package WebService::SyoboiCalendar;
 use Moo;
 
 use 5.008_001;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 $VERSION = eval $VERSION;
 
 use Smart::Args;
@@ -176,7 +176,7 @@ a WebService::SyoboiCalendar::API::Result list as a result.
 
 =item search_program
 
-  my $results = $syobocal->search_title(
+  my $results = $syobocal->search_program(
       title    => $title,
       channel  => $channel,
       subtitle => $subtitle,
